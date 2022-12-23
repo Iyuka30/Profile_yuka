@@ -120,6 +120,8 @@ footer{
 }
 footer span{
     font-weight: bold;
+    color: white;
+    font-size: 30px;
 }
 
 
@@ -134,8 +136,12 @@ footer span{
     .subject{
         font-size: 25px;
     }
+    .container2{
+        flex-direction: column;
+    }
     .Profile2{
         font-size: 15px;
+        margin-top: 10px;
     }
     .contents3 p{
         font-size: 20px;
