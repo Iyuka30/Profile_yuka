@@ -1,0 +1,123 @@
+/* セクション1 */
+body{
+    background-color: lightpink;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kv{
+    height: 100vh;
+    background-image: url(./IMG_4671\ 2.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.title-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main-title{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+/* セクション2 */
+.subject{
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contents2{
+    max-width: 1200px;
+    margin: 100px auto 0;
+    margin-top: 50px;
+}
+
+.contents2 img{
+    border-radius: 50%;
+}
+
+.Profile2{
+    width: 50%;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* セクション3 */
+#javascript .container{
+    flex-direction: row-reverse;
+}
+
+#javascript .description{
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+
+}
+.container3 img{
+    border-radius: 5%;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.contents3 p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: navy;
+    margin-bottom: 50px;
+}
+
+/* セクション４ */
+
+.container4{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container4 img{
+    border-radius: 5%;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.contents4 p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: navy;
+}
+
+footer{
+    background-color: rgb(5, 130, 186);
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+footer span{
+    font-weight: bold;
+}
