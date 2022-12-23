@@ -47,8 +47,8 @@ body{
 
 .contents2{
     max-width: 1200px;
-    margin: 100px auto 0;
     margin-top: 50px;
+    padding: 0;
 }
 
 .contents2 img{
@@ -121,3 +121,35 @@ footer{
 footer span{
     font-weight: bold;
 }
+
+
+
+
+/* レスポンシブ対応 */
+
+@media screen and (max-width: 767px) {
+    .main-title{
+        font-size: 30px;
+    }
+    .subject{
+        font-size: 25px;
+    }
+    .Profile2{
+        font-size: 15px;
+    }
+    .contents3 p{
+        font-size: 20px;
+    }
+
+
+
+
+
+
+}
+
+
+    
+
+
+
